@@ -44,16 +44,16 @@ function MixPages() {
   return (
     <section className="bg-[#2A2C32] mb-[100px]">
       <div className="containers  ">
-        <div className="text-center justify-center !pt-[120px] !pb-[60px]">
+        <div className="text-center justify-center !pt-[120px] !pb-[1px]">
           <h2 className="text-[40px] font-bold text-white ">Utility Pages</h2>
-          <p className="text-[20px] text-white pb-[60px]">
+          <p className="text-[20px] text-white !pb-[60px]">
             Default templates for your site & you can customize these pages to look the way you want.
           </p>
         </div>
 
         <div className="flex justify-between">
-          <img src={MixPage1} alt="Utility Page 1" className="rounded-lg" />
-          <img src={MixPage2} alt="Utility Page 2" className="rounded-lg" />
+          <img src={MixPage1} alt="Utility Page 1" className="rounded-lg w-[880px] h-auto" />
+          <img src={MixPage2} alt="Utility Page 2" className="rounded-lg w-[880px] h-auto" />
         </div>
 
         <div className="flex px-[220px] pt-[39px] justify-between">
@@ -74,7 +74,7 @@ function MixPages() {
         <div className="pt-8 flex justify-start ">
           <img src={MixPage5} alt="Offline illustration" className="rounded-lg" />
         </div>
-        <span className="text-normal text-white text-[25px] leading-[37px]  cursor-pointer hover:text-[#00C9A7] transition">404 Error Page</span>
+        <span className="items-center text-normal text-white text-[25px] !pl-[200px] !mt-[39px] !mb-[110px] leading-[37px]  cursor-pointer hover:text-[#00C9A7] transition">404 Error Page</span>
 
       </div>
     </section>

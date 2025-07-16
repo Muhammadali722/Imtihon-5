@@ -16,7 +16,7 @@ function Hero() {
             <div className="  gap-[10px] flex">
                 {/* <button className="w-[259px] h-[69px] rounded-[10px] border1 bg-blue-600 text-[18px] text-white">Buy Template</button>
                 <button className="w-[259px] h-[69px] rounded-[10px] border1 bg-blue-600 text-[18px] text-white">Explore Page</button> */}
-                <Button className="active:scale-95" label="Buy Template" onClick={() => console.log('Buy clicked!')} />
+                <Button className="active:scale-95 bg-[#FF774C] " label="Buy Template" onClick={() => console.log('Buy clicked!')} />
                 <Button className="active:scale-95" label="Explore Page" onClick={() => console.log('Explore clicked!')} />
             </div>
         </div>

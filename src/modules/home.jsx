@@ -11,7 +11,7 @@ function HomePage() {
           Attractive and stylish home layouts bring your portfolio website to
           the next level.
         </p>
-        <div className="flex items-center gap-[30px] pt-[60px]">
+        <div className="flex items-start gap-[15px] 1pt-[60px]">
           <img src={Home1} alt="Home Page Img 1"></img>
           <img src={Home2} alt="Home Page IMG 2"></img>
         </div>
